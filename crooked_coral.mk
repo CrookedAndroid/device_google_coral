@@ -25,3 +25,4 @@ BUILD_FINGERPRINT := google/coral/coral:13/TP1A.220624.014/8819323:user/release-
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
 $(call inherit-product, vendor/google/coral/coral-vendor.mk)
+$(call inherit-product-if-exists, vendor/gms/products/gms.mk)
