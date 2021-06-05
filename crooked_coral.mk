@@ -8,7 +8,7 @@ $(call inherit-product, vendor/crooked/config/common.mk)
 $(call inherit-product, vendor/crooked/config/gsm.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/google/coral/device-crooked.mk)
+$(call inherit-product, device/google/coral/coral/device-crooked.mk)
 $(call inherit-product, device/google/coral/aosp_coral.mk)
 
 ## Device identifier. This must come after all inclusions
