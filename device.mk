@@ -16,6 +16,8 @@
 
 LOCAL_PATH := device/google/coral
 
+include device/google/coral/device-crooked.mk
+
 PRODUCT_VENDOR_MOVE_ENABLED := true
 
 PRODUCT_SOONG_NAMESPACES += \
