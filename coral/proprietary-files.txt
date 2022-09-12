@@ -2,6 +2,10 @@
 
 # product partition
 
+# AiAi
+product/priv-app/DeviceIntelligenceNetworkPrebuilt/DeviceIntelligenceNetworkPrebuilt.apk;PRESIGNED
+product/priv-app/DevicePersonalizationPrebuiltPixel4/DevicePersonalizationPrebuiltPixel4.apk;PRESIGNED
+
 # Audio
 product/etc/ambient/matcher_tah.leveldb
 product/etc/firmware/music_detector.descriptor
@@ -32,7 +36,7 @@ product/priv-app/HotwordEnrollmentOKGoogleHEMIDELTA/HotwordEnrollmentOKGoogleHEM
 product/priv-app/HotwordEnrollmentXGoogleHEMIDELTA/HotwordEnrollmentXGoogleHEMIDELTA.apk;PRESIGNED
 
 # Permissions
-product/etc/permissions/privapp-permissions-google-p.xml
+product/etc/permissions/privapp-permissions-google-p.xml:product/etc/permissions/privapp-permissions-google-p-crooked.xml
 product/etc/sysconfig/google-hiddenapi-package-whitelist.xml
 product/etc/sysconfig/nexus.xml
 product/etc/sysconfig/pixel_2019_exclusive.xml
@@ -264,7 +268,7 @@ system_ext/framework/com.android.hotwordenrollment.common.util.jar
 system_ext/priv-app/PixelNfc/PixelNfc.apk
 
 # Permissions
-system_ext/etc/permissions/privapp-permissions-google-se.xml
+system_ext/etc/permissions/privapp-permissions-google-se.xml:system_ext/etc/permissions/privapp-permissions-google-se-crooked.xml
 
 # Qualcomm misc
 system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
@@ -592,7 +596,7 @@ system_ext/priv-app/EuiccSupportPixel/EuiccSupportPixel.apk;PRESIGNED
 system_ext/priv-app/EuiccSupportPixel/esim-full-v1.img
 system_ext/priv-app/EuiccSupportPixelPermissions/EuiccSupportPixelPermissions.apk;PRESIGNED
 system_ext/priv-app/RilConfigService/RilConfigService.apk
-system_ext/priv-app/grilservice/grilservice.apk
+system_ext/priv-app/grilservice/grilservice.apk;PRESIGNED
 
 # SecureUI
 system_ext/app/com.qualcomm.qti.services.secureui/com.qualcomm.qti.services.secureui.apk
@@ -602,10 +606,8 @@ system_ext/lib64/libsecureui_svcsock_system.so
 system_ext/lib64/libsecureuisvc_jni.so
 
 # VZW
-system_ext/etc/permissions/com.verizon.llkagent.xml
 system_ext/etc/permissions/obdm_permissions.xml
 system_ext/etc/permissions/vzw_mvs_permissions.xml
-system_ext/priv-app/LLKAgent/LLKAgent.apk
 system_ext/priv-app/MyVerizonServices/MyVerizonServices.apk;PRESIGNED
 system_ext/priv-app/OBDM_Permissions/OBDM_Permissions.apk;PRESIGNED
 system_ext/priv-app/obdm_stub/obdm_stub.apk;PRESIGNED
