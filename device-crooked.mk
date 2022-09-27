@@ -195,3 +195,7 @@ PRODUCT_PACKAGES += \
 
 # Properties
 TARGET_VENDOR_PROP := $(LOCAL_PATH)/vendor.prop
+
+# Artifact path requirements
+PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += \
+    system/etc/permissions/privapp-permissions-gms-s.xml

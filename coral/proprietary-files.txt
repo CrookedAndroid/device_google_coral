@@ -1,5 +1,8 @@
 # All blobs are extracted from Google factory images for each new ASB
 
+# system partition
+system/etc/permissions/privapp-permissions-gms-s.xml|e0a03f0fa15aa60bbb2cc8122e6dac200cd9c089
+
 # product partition
 
 # AiAi
@@ -36,6 +39,7 @@ product/priv-app/HotwordEnrollmentOKGoogleHEMIDELTA/HotwordEnrollmentOKGoogleHEM
 product/priv-app/HotwordEnrollmentXGoogleHEMIDELTA/HotwordEnrollmentXGoogleHEMIDELTA.apk;PRESIGNED
 
 # Permissions
+product/etc/permissions/privapp-permissions-gms-p.xml|9e9c85055fe2df8256a2c4e6d0f96f86dc90a452
 product/etc/permissions/privapp-permissions-google-p.xml:product/etc/permissions/privapp-permissions-google-p-crooked.xml
 product/etc/sysconfig/google-hiddenapi-package-whitelist.xml
 product/etc/sysconfig/nexus.xml
